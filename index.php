@@ -111,7 +111,7 @@ if (isset($_SESSION['user_id'])) {
             box-shadow: 0 6px 15px rgba(0, 245, 255, 0.4);
             margin-top: 15px;
             letter-spacing: 0.5px;
-            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition: all 0.3s cubic-bezier(0.24, 0.8, 0.25, 1);
             user-select: none;
             width: 100%;
         }
