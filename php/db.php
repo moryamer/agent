@@ -11,16 +11,16 @@ require_once __DIR__ . '/_safe_wrappers.php';
 // $dbname     = "agent_killer_game"; // اسم قاعدة البيانات
 
 // // ملف اتصال قاعدة البيانات: php/db.php
-// $servername = "sql108.hstn.me";  // اسم السيرفر
-// $username   = "mseet_39672618";       // يوزر قاعدة البيانات
-// $password   = "mero13112020";           // باسورد قاعدة البيانات
-// $dbname     = "mseet_39672618_agent_killer_game"; // اسم قاعدة البيانات
+$servername = "sql101.infinityfree.com";  // اسم السيرفر
+$username   = "if0_39736700";       // يوزر قاعدة البيانات
+$password   = "mero131120200";           // باسورد قاعدة البيانات
+$dbname     = "if0_39736700_agent_killer_game"; // اسم قاعدة البيانات
 
-$servername = "sql8.freesqldatabase.com"; // الـ Host
-$username   = "sql8794878";               // الـ Username
-$password   = "ApzKYPlRz8";   // الـ Password
-$dbname     = "sql8794878";               // Database Name
-$port       = 3306;   
+// $servername = "sql8.freesqldatabase.com";
+// $username   = "sql8794878";
+// $password   = "ApzKYPlRz8";
+// $dbname     = "sql8794878";
+// $port       = 3306;   
 // إنشاء اتصال بقاعدة البيانات
 $conn = new mysqli($servername, $username, $password, $dbname);
 
